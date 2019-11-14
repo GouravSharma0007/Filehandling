@@ -1,0 +1,7 @@
+f = open('xyz.txt','a+')
+f.write("\nGourav")
+f.write("\nAbhishek")
+f.close()
+f = open('xyz.txt','r')
+print(f.read())
+f.close()
